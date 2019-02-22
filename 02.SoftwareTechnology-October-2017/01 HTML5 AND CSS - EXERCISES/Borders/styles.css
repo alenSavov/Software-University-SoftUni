@@ -1,0 +1,26 @@
+p {
+     padding: 10px;
+     border-radius: 15px;
+     text-align: center;
+     border: 3px solid;
+     background-color: gray;
+     width: 10em;
+ }
+.red{
+    border-color: red;
+}
+.blue{
+    border-color: blue;
+}
+.green{
+    border-color: green;
+}
+.red span{
+    color: red;
+}
+.green span{
+    color: green;
+}
+.blue span{
+    color: blue;
+}

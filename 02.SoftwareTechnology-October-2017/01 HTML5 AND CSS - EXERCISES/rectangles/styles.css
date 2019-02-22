@@ -1,0 +1,12 @@
+div{
+    padding: 15px;
+    border: 1px dotted blue;
+}
+div div{
+    border-style: dashed;
+    border-color: red;
+}
+div div div{
+    border-style: solid;
+    border-color: green;
+}
