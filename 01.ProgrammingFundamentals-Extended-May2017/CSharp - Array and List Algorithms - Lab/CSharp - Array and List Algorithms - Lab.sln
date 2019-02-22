@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Array Contains Element", "01. Array Contains Element\01. Array Contains Element.csproj", "{38FC1E6C-9963-4BCD-B2DD-4BE982294435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Smallest Element in Array", "02. Smallest Element in Array\02. Smallest Element in Array.csproj", "{27AC8C6E-885D-4E04-B232-D4EBB6804363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Reverse Array In-place", "03. Reverse Array In-place\03. Reverse Array In-place.csproj", "{154D6306-E323-4469-A9E8-90F18840F9AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Sort Array Using Bubble Sort", "04. Sort Array Using Bubble Sort\04. Sort Array Using Bubble Sort.csproj", "{6690EC26-1176-48A4-ADE0-03C4618461A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38FC1E6C-9963-4BCD-B2DD-4BE982294435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FC1E6C-9963-4BCD-B2DD-4BE982294435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FC1E6C-9963-4BCD-B2DD-4BE982294435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FC1E6C-9963-4BCD-B2DD-4BE982294435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27AC8C6E-885D-4E04-B232-D4EBB6804363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27AC8C6E-885D-4E04-B232-D4EBB6804363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27AC8C6E-885D-4E04-B232-D4EBB6804363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27AC8C6E-885D-4E04-B232-D4EBB6804363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154D6306-E323-4469-A9E8-90F18840F9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154D6306-E323-4469-A9E8-90F18840F9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154D6306-E323-4469-A9E8-90F18840F9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154D6306-E323-4469-A9E8-90F18840F9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6690EC26-1176-48A4-ADE0-03C4618461A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6690EC26-1176-48A4-ADE0-03C4618461A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6690EC26-1176-48A4-ADE0-03C4618461A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6690EC26-1176-48A4-ADE0-03C4618461A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
