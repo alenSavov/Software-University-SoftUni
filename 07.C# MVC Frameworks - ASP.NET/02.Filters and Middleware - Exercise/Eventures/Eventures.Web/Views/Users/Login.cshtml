@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Eventures";
+}
+
+<div class="container w-25 ">
+    <form class="mx-auto" method="post" asp-controller="Users" asp-action="Login">
+        <h2 class="d-flex justify-content-center">Login</h2>
+        <hr class="hr-2 bg-eventures" />
+        <div class="form-group text-center font-weight-bold">
+            <label for="username">Username</label>
+            <input type="text" name="username" class="form-control" id="username">
+        </div>
+        <div class="form-group text-center font-weight-bold">
+            <label for="password">Password</label>
+            <input type="password" name="password" class="form-control" id="password">
+        </div>
+        <hr class="hr-2 bg-eventures" />
+        <div class="checkbox text-center">
+            <label><input type="checkbox"> Remember me?</label>
+        </div>
+        <hr class="hr-2 bg-eventures" />
+        <div class="d-flex justify-content-center">
+            <input type="submit" class="btn btn-info " value="Login">
+        </div>
+    </form>
+</div>

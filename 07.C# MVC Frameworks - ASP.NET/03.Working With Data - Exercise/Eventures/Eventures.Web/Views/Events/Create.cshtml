@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container w-50 ">
+    <form class="mx-auto" method="post" asp-controller="Events" asp-action="Create">
+        <h3 class="text-center font-weight-bold">Create Event</h3>
+        <hr class="hr-2 bg-eventures" />
+        <div class="d-flex justify-content-between">
+            <div class="form-group text-center font-weight-bold w-45">
+                <label for="name">Name</label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Iron Maiden - Hills of Rock">
+            </div>
+            <div class="form-group text-center font-weight-bold w-45">
+                <label for="place">Place</label>
+                <input type="text" name="place" class="form-control" id="place" placeholder="Plovdiv, Bulgaria">
+            </div>
+        </div>
+
+        <hr class="hr-2 bg-eventures" />
+        <div class="d-flex justify-content-between">
+            <div class="form-group text-center font-weight-bold w-45">
+                <label for="start">Start</label>
+                <input type="text" name="start" class="form-control" id="start" placeholder="20-Jul-2018 22:00">
+            </div>
+            <div class="form-group text-center font-weight-bold w-45">
+                <label for="end">End</label>
+                <input type="text" name="end" class="form-control" id="end" placeholder="20-Aug-2018 04:00">
+            </div>
+        </div>
+        <hr class="hr-2 bg-eventures" />
+
+        <div class="d-flex justify-content-between">
+            <div class="form-group text-center font-weight-bold w-45">
+                <label for="totalTickets">Total Tickets</label>
+                <input type="text" name="totalTickets" class="form-control" id="totalTickets" placeholder="1000">
+            </div>
+            <div class="form-group text-center font-weight-bold w-45">
+                <label for="pricePerTicket">Price Per Ticket</label>
+                <input type="text" name="pricePerTicket" class="form-control" id="pricePerTicket" placeholder="150">
+            </div>
+        </div>
+        <hr class="hr-2 bg-eventures " />
+        <div class="d-flex justify-content-center pt">
+            <input type="submit" class="btn btn-info " value="Create Event">
+        </div>
+    </form>
+</div>
+

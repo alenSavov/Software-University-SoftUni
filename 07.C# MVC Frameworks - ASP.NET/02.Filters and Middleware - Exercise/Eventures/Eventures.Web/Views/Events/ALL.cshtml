@@ -1,0 +1,36 @@
+﻿@using Eventures.Web.Models.Events
+@model AllEventsCollectionViewModel
+@{
+    ViewData["Title"] = "All";
+}
+
+@{ var counter = 0;}
+<div class="container ">
+    <h2 class="text-center font-weight-bold">All Events</h2>
+    <hr class="hr-2 bg-eventures" />
+    <table class="table table-sm ">
+        <thead>
+            <tr>
+                <th scope="col"><b>#</b></th>
+                <th scope="col"><b>Name</b></th>
+                <th scope="col"><b>Start</b></th>
+                <th scope="col"><b>End</b></th>
+                <th scope="col"><b>Place</b></th>
+            </tr>
+        </thead>
+        @foreach (var eventModel in Model.Events)
+        {
+            counter++;
+            <tbody>
+                <tr>
+                    <th scope="row">@counter</th>
+                    <td>@eventModel.Name</td>
+                    <td>@eventModel.Start</td>
+                    <td>@eventModel.End</td>
+                    <td>@eventModel.End</td>
+                </tr>
+            </tbody>
+        }
+    </table>
+    <hr class="hr-2 bg-eventures" />
+</div>

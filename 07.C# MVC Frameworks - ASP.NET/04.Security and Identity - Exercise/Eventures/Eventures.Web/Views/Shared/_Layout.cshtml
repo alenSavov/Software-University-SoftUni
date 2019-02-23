@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Eventures</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="~/css/reset-css.css">
+        <link rel="stylesheet" type="text/css" href="~/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    </environment>
+</head>
+
+<body>
+    <div class="container-flex">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-eventures">
+                <a class="navbar-brand text-dark font-weight-bold" href="/">Eventures</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-dark text-dark font-weight-bold" href="/">Home</a>
+                        </li>
+
+                        @if (this.User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle nav-link-dark" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="nav-link-dark font-weight-bold">Events</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" asp-controller="Events" asp-action="All">All Events</a>
+                                    <a class="dropdown-item" asp-controller="Events" asp-action="MyEvents">My Events</a>
+                                    @if (this.User.IsInRole("Admin"))
+                                    {
+                                        <a class="dropdown-item text-dark" asp-controller="Events" asp-action="Create">Create Event</a>
+                                    }
+                                </div>
+                            </li>
+                            @if (this.User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle nav-link-dark" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="nav-link-dark font-weight-bold">Orders</span>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" asp-controller="Orders" asp-action="All">Orders</a>
+                                    </div>
+                                </li>
+                            }
+                        }
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse navbar-left justify-content-end " id="navbarNav">
+                    @if (!this.User.Identity.IsAuthenticated)
+                    {
+
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-dark text-dark font-weight-bold" asp-controller="Users" asp-action="Login">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-dark text-dark font-weight-bold" asp-controller="Users" asp-action="Register">Register</a>
+                            </li>
+                        </ul>
+
+                    }
+                    @if (this.User.Identity.IsAuthenticated)
+                    {
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-dark text-dark font-weight-bold" asp-controller="Home" asp-action="Index">Hello @User.Identity.Name!</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-dark text-dark font-weight-bold" asp-controller="Users" asp-action="Logout">Logout</a>
+                            </li>
+                        </ul>
+                    }
+                </div>
+            </nav>
+        </header>
+
+        @RenderBody()
+
+        <footer>
+            <div class="container-fluid bg-eventures ">
+                <div class="text-white p-2 text-center text-muted">
+                    <span class="nav-link-dark">&copy;CopyRight Sanity Web Design Studios 2018. All rights reserved.</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    @RenderSection("Scripts", required: false)
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/jquery/dist/jquery.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+</body>
+</html>
