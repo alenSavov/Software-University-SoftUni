@@ -1,0 +1,19 @@
+<albums>
+  <album>
+    <name>All Eyez on Me</name>
+	<artist>Tupac Shakur</artist>
+	<year>1996</year>
+	<producer>Tupac Shakur</producer>
+	<price>300</price>
+	<songs>
+		<song>
+			<title>California Love</title>
+			<duration>5:35</duration>
+		</song>
+		<song>
+			<title>Ambitionz Az a Ridah</title>
+			<duration>4:39</duration>
+		</song>
+	</songs>
+  <album>
+</albums>
