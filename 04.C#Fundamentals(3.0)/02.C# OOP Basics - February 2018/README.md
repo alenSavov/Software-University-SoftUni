@@ -1,13 +1,15 @@
-*<p align="center"> C# OOP Basics - February 2018<p>
-![SoftUni logo][logo] <a/>
+<p align="center">
+	<a href="https://softuni.bg/"><img src="https://www.jobs.bg/assets/logo/2017-09-01/b_6e048c01c340d967f2a6e540e9825d46.png" alt="Softuni logo" width="400" align="center">
+	</a>
+<p>
 
-[logo]: http://innovationstarterbox.bg/wp-content/uploads/2016/05/Softuni_logo_trasparent.png "Logo Title Text 2"
+## Course: [CSharp OPP Basics](https://softuni.bg/trainings/1842/csharp-oop-basics-february-2018)
+SoftUni course CSharp OOP Basics - February 2018: All tasks with their solutions.
 
----
-
-                                                 About the course
-
-
-The Object Oriented Programming course will teach you the principles of Object Oriented Programming (PLO), how to work with classes and objects, how to use object-oriented modeling, and build class hierarchies. The basic principles of the CMO will be studied as abstraction (interfaces, abstract classes), encapsulation, inheritance and polymorphism. We will pay attention to paradigms such as event-driven programming, functional programming (lambda functions, closures and LINQ), exception handling. We'll look at cloning, comparing, and crawling objects. We will briefly go into the most commonly used design patterns.
-
-
+## Course content:
+- Defining Classes
+- Working with Abstraction and Enumeration
+- Encapsulation
+- Inheritance
+- Interfaces and Abstraction
+- Polymorphism
