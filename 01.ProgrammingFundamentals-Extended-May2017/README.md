@@ -1,26 +1,19 @@
+<p align="center">
+	<a href="https://softuni.bg/"><img src="https://www.jobs.bg/assets/logo/2017-09-01/b_6e048c01c340d967f2a6e540e9825d46.png" alt="Softuni logo" width="400" align="center">
+	</a>
 <p>
-    The “Programming Fundamentals” course extends the previously gained basic
-    coding skills from the “
-    <a href="https://softuni.bg/courses/programming-basics">
-        Programming Basics
-    </a>
-    ” course at the Software University and adds additional knowledge and
-    practical programming skills.
-</p>
-<p>
-    The course covers understanding the basic data types in programming,
-    extracting pieces of code into methods with parameters and return value,
-    using the debugger to trace the program execution and find bugs, processing
-    sequences of elements using arrays and lists, using collections, working
-    with matrices for processing tabular data, working with dictionaries to map
-    keys to values, using strings for text processing, and the basics of
-    working with classes and objects, using API classes and defining simple
-    classes.
-</p>
-<p>
-    Along with the programming techniques, the algorithmic thinking and problem
-    solving skills are advanced by solving hundreds of practical programming
-    problems. All exercises and exams are automatically evaluated with
-real-time feedback through the    <a href="https://judge.softuni.bg/">SoftUni online judge system</a>. At the
-    end all students take a practical programming exam.
-</p>
+
+## Course: [Programming Fundamentals Extended](https://softuni.bg/trainings/1618/programming-fundamentals-extended-may-2017)
+SoftUni course Programming Fundamentals Extended - January 2017: All tasks with their solutions.
+
+## Course content
+- VCS (Version Control Systems)
+- Data Types and Variables
+- Methods and Debugging
+- Arrays
+- Lists
+- Dictionaries, Lambda and LINQ
+- Objects and Classes
+- Files and Exceptions
+- Strings
+- Regular Expressions
