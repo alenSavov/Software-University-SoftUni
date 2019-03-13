@@ -7,7 +7,7 @@
 <h1><a href="https://softuni.bg/">SoftUni</a></h1>
 <h2>C#</h2>
 </td>
-<td align="center" width="33%"><img src="https://avatars1.githubusercontent.com/u/24620088?v=3&amp;u=5e1a11ac5228356808410702d2f8c5ff3209d2a9&amp;s=400" alt="" />
+<td align="center" width="33%"><img src="https://media.licdn.com/dms/image/C5603AQHd5L6_q5AmNg/profile-displayphoto-shrink_200_200/0?e=1557964800&v=beta&t=6rg49x3Hv5WLd7I4-J9uOQ8YIPzOyw3L6GTStKfLM_Y" alt="" />
 <img src="https://www.linkedin.com/favicon.ico" alt="LinkedIn" />
 Author: 
 <strong>
