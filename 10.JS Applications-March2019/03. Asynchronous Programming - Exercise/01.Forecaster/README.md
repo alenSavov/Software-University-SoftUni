@@ -1,2 +1,1 @@
-![Capture](https://user-images.githubusercontent.com/28908397/55234853-b8941400-5234-11e9-9bc6-80561465cb79.PNG)
 ![Capture2](https://user-images.githubusercontent.com/28908397/55234855-b92caa80-5234-11e9-82b4-ced647225cc9.PNG)
