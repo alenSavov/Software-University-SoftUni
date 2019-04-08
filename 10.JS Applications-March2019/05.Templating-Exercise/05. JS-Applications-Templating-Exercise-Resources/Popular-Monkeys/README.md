@@ -1,0 +1,3 @@
+<p>You are provided with a <strong>skeleton.</strong> Your task is to implement the function in the <strong>'monkeysTemplate.js'</strong> file to render the six most popular monkeys in the browser. You should also add an <strong>event</strong> to each <strong>'Info'</strong> button to show the <strong>details</strong> about the monkey. Each monkey also has a <strong>name</strong> and an <strong>image</strong>. Explore the <strong>'monkeys.js'</strong>file for more details. At the end the page should look like this:</p>
+
+![CaptureMoneky](https://user-images.githubusercontent.com/28908397/55730201-5602fb00-5a20-11e9-9d32-51fece99f6a4.JPG)

@@ -1,0 +1,6 @@
+<p>We all love cats. They are also a fun way to learn all the HTTP status codes.</p>
+<p>Your task is to <strong>refactor</strong> the given <strong>HTML</strong> and to create a <strong>template</strong> to represent <strong>each</strong> cat card block on it's own. After you have <strong>created</strong> the templete <strong>render</strong> it into the div with <strong>id "</strong>allCats<strong>".</strong></p>
+<p>A <strong>cat</strong> has an id<strong>, </strong>statusCode<strong>, </strong>statusMessageandimageLocation. The cats are <strong>seeded</strong> using the <strong>function</strong> from the js <strong>file</strong> named <strong>"</strong>catSeeder.js<strong>"</strong></p>
+<p>Each card block has a <strong>button</strong> that <strong>unveils</strong> status code information <strong>connected</strong> to each cat. You should <strong>toggle</strong> the button and change it's text from "Showstatuscode" to "Hidestatuscode".</p>
+
+![CaptureCatsStatusCode](https://user-images.githubusercontent.com/28908397/55730045-07556100-5a20-11e9-9af0-b4060f7b17b7.JPG)
