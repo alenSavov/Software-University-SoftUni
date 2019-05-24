@@ -24,6 +24,7 @@
 	<li>Working with forms</li>
 </ol>
 </br>
+## Course: [CSS Advanced - July 2019](https://softuni.bg/trainings/2357/css-advanced-july-2019#lesson-11761)
 <h1>CSS Advanced - July 2019 - Course content:</h1>
 <ol>
 	<li>CSS Variables</li>
