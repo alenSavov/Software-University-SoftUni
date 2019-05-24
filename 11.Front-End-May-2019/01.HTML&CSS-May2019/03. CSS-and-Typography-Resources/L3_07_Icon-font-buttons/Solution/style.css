@@ -1,0 +1,25 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+a {
+    padding: 3px 4px 3px 4px;
+    border-radius: 2px;
+    text-decoration: none;
+    
+  }
+
+  i {
+      padding-right: 4px;
+  }
+
+ .clickMeBtn {
+      color: #FFF;
+      background-color: rgb(9, 142, 2);
+      border-color: rgb(9, 142, 2);
+
+  }
+
+.emailMeBtn {
+    color: #FFF;
+    background-color: rgb(224, 134, 0);
+    border-color: currentColor;
+  }
