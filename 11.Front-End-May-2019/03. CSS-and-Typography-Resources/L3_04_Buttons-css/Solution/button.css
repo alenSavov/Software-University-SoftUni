@@ -1,0 +1,42 @@
+.button,
+button{
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 2px solid #000;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1;
+    color: #000;
+    background:transparent;
+    border-radius: 3rem;
+}
+
+.button.filled,
+button.filled {
+    background: #000;
+    color: #FFF;
+}
+
+.button.filled.hover,
+button.filled.hover,
+.button.filled:hover,
+button.button:hover {
+    background: #090;
+    border-color: #090;
+    color: #FFF;
+}
+
+.button.hover,
+button.hover,
+.button:hover,
+button:hover{
+    color: #090;
+    border-color: currentColor;
+    background: #FFF;
+}
+
+.button.icon,
+button.icon {
+    background: #000;
+    color: #FFF;
+}
