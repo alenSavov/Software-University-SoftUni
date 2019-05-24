@@ -9,10 +9,10 @@
 </td>
 <td align="center" width="33%"><img src="https://media.licdn.com/dms/image/C5603AQHd5L6_q5AmNg/profile-displayphoto-shrink_200_200/0?e=1557964800&v=beta&t=6rg49x3Hv5WLd7I4-J9uOQ8YIPzOyw3L6GTStKfLM_Y" alt="" />
 <img src="https://www.linkedin.com/favicon.ico" alt="LinkedIn" />
-Author: 
+
 <strong>
-<img src="https://media.licdn.com/dms/image/C4D03AQG-fdVFRUrgrA/profile-displayphoto-shrink_200_200/0?e=1564012800&v=beta&t=j7GCaQusdFbiRp7ukYzpSN1okkidi3nm7uHSRx9jJPk" title="LinkedIn Alen Savov" href="https://media.licdn.com/dms/image/C4D03AQG-fdVFRUrgrA/profile-displayphoto-shrink_200_200/0?e=1564012800&v=beta&t=j7GCaQusdFbiRp7ukYzpSN1okkidi3nm7uHSRx9jJPk" target="_blank">
-Alen Savov
+<img src="https://media.licdn.com/dms/image/C4D03AQG-fdVFRUrgrA/profile-displayphoto-shrink_200_200/0?e=1564012800&v=beta&t=j7GCaQusdFbiRp7ukYzpSN1okkidi3nm7uHSRx9jJPk" title="LinkedIn Alen Savov">
+ Author: Alen Savov
 </a>
 </strong></p>
 </td>
