@@ -11,7 +11,7 @@
 <img src="https://www.linkedin.com/favicon.ico" alt="LinkedIn" />
 Author: 
 <strong>
-<a title="LinkedIn Alen Savov" href="https://www.linkedin.com/in/alen-savov-3591a8157/" target="_blank">
+<a title="LinkedIn Alen Savov" href="https://media.licdn.com/dms/image/C4D03AQG-fdVFRUrgrA/profile-displayphoto-shrink_200_200/0?e=1564012800&v=beta&t=j7GCaQusdFbiRp7ukYzpSN1okkidi3nm7uHSRx9jJPk" target="_blank">
 Alen Savov
 </a>
 </strong></p>
