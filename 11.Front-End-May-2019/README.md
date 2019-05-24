@@ -8,3 +8,17 @@
 ## Course: [HTML & CSS - May 2019](https://softuni.bg/trainings/2375/html-and-css-may-2019#lesson-12125)
 SoftUni course HTML & CSS - May 2019: All tasks with their solutions.
 
+## HTML & CSS - Course content:
+ -HTML STRUCTURE
+ -CSS & TYPOGRAPHY
+ -CSS BOX MODEL (NON-ATTENDANCE)
+ -POSITION & FLOAT
+ -FLEXBOX
+ -WORKING WITH FORMS
+ 
+## CSS Advanced - July 2019 - Course content
+ -FILE ORGANISATION, VERSION CONTROL
+ -CSS TRANSITIONS AND ANIMATIONS
+ -CSS GRID - INTRODUCTION
+ -CSS GRID - DIVE IN
+ -CSS VARIABLES
