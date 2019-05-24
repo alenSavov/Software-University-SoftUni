@@ -12,7 +12,7 @@
 	<a href="https://developer.mozilla.org/bg/docs/Web/CSS"><img src="https://miro.medium.com/max/854/1*dasKDOFjFV4WgAceQfChyg.jpeg" alt="CSS & HTML" width="300" align="center"></a>
 </p>
 
-## Course: [HTML & CSS - May 2019](https://softuni.bg/trainings/2375/html-and-css-may-2019#lesson-12125)
+<h3><a href="https://softuni.bg/trainings/2375/html-and-css-may-2019#lesson-12125">HTML & CSS - May 2019</a></h3>
 
 <h1>HTML & CSS Course content:</h1>
 <ol>
@@ -24,7 +24,8 @@
 	<li>Working with forms</li>
 </ol>
 </br>
-## Course: [CSS Advanced - July 2019](https://softuni.bg/trainings/2357/css-advanced-july-2019#lesson-11761)
+## Course: [CSS Advanced - July 2019]()
+<h3><a href="https://softuni.bg/trainings/2357/css-advanced-july-2019#lesson-11761">CSS Advanced - July 2019</a></h3>
 <h1>CSS Advanced - July 2019 - Course content:</h1>
 <ol>
 	<li>CSS Variables</li>
