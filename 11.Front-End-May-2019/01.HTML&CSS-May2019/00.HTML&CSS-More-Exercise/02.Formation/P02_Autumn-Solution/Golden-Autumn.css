@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(238, 112, 71);
+}
+
+header > h1 {
+    font-style: italic;
+    padding: 7px 25px;
+    margin-top: 30px;
+    border: 3px solid rgb(211, 90, 67);
+    font-size: 25px;
+    display: inline-block;
+    color: rgb(70, 62, 61);
+}
+
+header h1:hover{
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+
+nav ul li a{
+    font-size: 18px;
+    border: 3px solid rgb(211, 90, 67);
+    text-decoration: none;
+    color: black;
+    border-radius: 7px;
+    padding: 12px 12px;
+    margin-right: 20px;
+    text-transform: uppercase;
+
+}
+
+nav ul li a:hover{
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+
+section {
+    background-color: rgb(248, 181, 68);
+    border-radius: 7px;
+    padding: 20px;
+}
+
+article {
+    border: 2px solid rgb(211, 90, 67);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+}
+
+figure {
+    max-width: 20%;
+    float: right;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+
+    border: 2px solid rgb(211, 90, 67);
+    border-radius: 15px;
+
+}
+
+article p {
+    font-family: 'Open Sans', sans-serif;
+    /*display: inline-block;*/
+}
+
+article button {
+    border: 3px solid rgb(211, 90, 67);
+    border-radius: 9px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: rgb(211, 90, 67);
+    font-weight: bold;
+    background-color: rgb(248, 181, 68);
+}
+
+article button:hover{
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+footer {
+    text-transform: uppercase;
+    border: 2px dotted rgb(193, 67, 56);
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 10px 5px;
+}
