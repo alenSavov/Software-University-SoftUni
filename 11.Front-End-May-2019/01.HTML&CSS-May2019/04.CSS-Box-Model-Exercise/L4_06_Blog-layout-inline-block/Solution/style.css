@@ -1,0 +1,51 @@
+html {
+    background-color: rgb(238, 238, 238);
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    width: 60%;
+    padding-left: 115px;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.main {
+    width: 60%;
+    height: 150vh;
+}
+
+.main,
+.sidebar {
+    padding-right: 50px;
+}
+
+article{
+    display: inline-block;
+    margin: 0 120px;
+    float: left;
+}
+
+article img {
+    width: 60%;
+    height: 50%;
+}
+
+.sidebar {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
