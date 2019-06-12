@@ -1,0 +1,60 @@
+/* Reset CSS */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+    line-height: 1.2;
+}
+
+.card{
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 4rem auto;
+    width: 30rem;
+    position: relative;
+    height: 500px;
+    box-shadow: 0px 0px 10px 5px #aaa;
+}
+
+section button{
+    border: none;
+    background-color: rgb(0, 153, 0);
+    padding: 10px 20px;
+    margin: 5px 20px 0px 0px;
+    float: right;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.card-image{
+    position: relative;
+    height: inherit;
+    width: inherit;
+    overflow: hidden;
+}
+
+.card-image > img{
+    top:0;
+    left:0;
+    position: absolute;
+    height: auto;
+    width: inherit;
+}
+
+.card-content{
+    position: absolute;
+    bottom: -20px;
+    padding: 0px 0px 0px 20px;
+    margin-bottom: 6rem;
+}
