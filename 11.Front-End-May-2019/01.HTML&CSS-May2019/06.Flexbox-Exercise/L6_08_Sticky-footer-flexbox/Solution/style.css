@@ -1,0 +1,44 @@
+html {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: inherit;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+body {
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-bottom: 2px solid #000000;
+}
+
+main{
+    flex-direction: column;
+    flex: 1 0 auto;
+    padding: 2rem;
+}
+
+main h2 {
+    padding-bottom: 0.5em;
+}
+
+main p {
+    padding-bottom: 1.5em;
+}
+
+footer {
+    display: flex;
+    padding: 0.5rem 1rem;
+    background: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+}
