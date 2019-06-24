@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+body {
+    background: rgb(238, 238, 238);
+    width: 80%;
+    margin: 2rem auto;
+}
+
+body > header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+section article blockquote{
+    font-family: Georgia, serif;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page > header {
+    width: 100%;
+}
+
+.site-title {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.align-right {
+    float: right;
+    margin-left: 1.5rem;
+}
+
+.align-left {
+    float: left;
+    margin-right: 1.5rem;
+}
+
+main {
+    width: 75%;
+}
+
+main section img {
+    border: 3px solid #000000;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    padding: 0.5rem;
+}
+
+aside {
+    margin-left: 4rem;
+}
+
+aside section nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
