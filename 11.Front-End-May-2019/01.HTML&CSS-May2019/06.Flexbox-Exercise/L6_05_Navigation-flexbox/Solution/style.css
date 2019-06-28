@@ -75,3 +75,23 @@ header nav ul li a {
 main h1 {
     font-weight: 500;
 }
+
+main section blockquote {
+    font-family: Georgia, serif;
+    width: 50%;
+}
+
+aside {
+    margin-left: 3rem;
+    width: 20%;
+}
+
+aside li {
+    list-style: square;
+    margin-left: 3rem;
+}
+
+aside li a {
+    color: rgb(0, 153, 0);
+    font-size: 1rem;
+}
