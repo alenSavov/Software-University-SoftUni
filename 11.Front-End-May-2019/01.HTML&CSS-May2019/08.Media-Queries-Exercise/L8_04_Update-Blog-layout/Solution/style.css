@@ -1,0 +1,177 @@
+/* Reset css */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, input, textarea, option, select, table, form {
+    font: inherit;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+    padding-bottom: 0.5em;
+    font-size: 2.5em;
+}
+
+body {
+    padding: 5rem;
+    color: #000000;
+    background-color: rgb(235, 235, 235);
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page > header {
+    width: 100%;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin-bottom: 1.5rem;
+    padding-bottom: 2rem;
+    display: flex;
+
+}
+
+header h1 {
+    padding: 0;
+}
+
+
+header nav {
+    margin-left: auto;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    margin: 10px 20px;
+}
+
+header nav ul li {
+    display: flex;
+    list-style: none;
+    border:  1px solid black;
+    border-radius: 5px;
+    margin: 0 2px 0 2px;
+    padding: 5px 10px;
+    background-color:  rgb(45, 45, 45);
+}
+
+header nav ul li a {
+    display: flex;
+    color: white;
+}
+
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+
+
+.site-title {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.align-right {
+    float: right;
+    margin-left: 1.5rem;
+}
+
+.align-left {
+    float: left;
+    margin-right: 1.5rem;
+}
+
+main {
+    width: 75%;
+}
+
+main section img {
+    border: 3px solid #000000;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    padding: 0.5rem;
+}
+
+aside {
+    margin-left: 4rem;
+}
+
+aside section nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+#toggle{
+    display: none;
+}
+@media (max-width: 800px) {
+    body > header {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    body > header > h1 {
+        width: 100%;
+        text-align: center;
+        margin: 1rem auto;
+    }
+
+    body > header > h1:after {
+        display: block;
+        content: 'x menu';
+        width: 100%;
+        border-bottom: solid 2px #000;
+    }
+
+    body > header > nav {
+        width: 100%;
+    }
+
+    body > header > nav > ul {
+        display: block;
+    }
+
+    body > header > nav > ul > li {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    body > header > nav > ul > li > a {
+        width: 100%;
+        display: block;
+    }
+}
