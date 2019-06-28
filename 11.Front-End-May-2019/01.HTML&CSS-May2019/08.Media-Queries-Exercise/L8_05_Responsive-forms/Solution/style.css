@@ -1,0 +1,57 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    margin: 2rem auto;
+    min-width: 15rem;
+    max-width: 20rem;
+}
+
+@media (max-width: 600){
+    form > fieldset > label {
+        display: block;
+    }
+}
+
+@media (min-width: 600){
+    form > fieldset > label {
+        display: inline;
+    }
+}
+
+form > fieldset {
+    display: flex;
+    width: 18rem;
+    padding: 1rem;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    background-color: #eee;
+}
+
+form > fieldset > label {
+    width: 3rem;
+}
+
+form > fieldset > p {
+    margin-bottom: 1rem;
+    width: 7rem;
+}
+
+form > fieldset > legend {
+    border: 1px solid #555;
+    padding: 0.3rem 0.5rem;
+    background-color: #fff;
+}
+
+form > fieldset > div > input[type=submit] {
+    background-color: #222;
+    color: white;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 5px;
+}
