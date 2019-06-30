@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+body {
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.8rem;
+}
+
+/* HEADER */
+#site-title {
+    color: rgb(128, 12, 136);
+    width: 55%;
+    font-family: Helvetica, sans-serif;
+    font-size: 3em;
+    padding: 0.3em 0 0 1em;
+}
+
+#site-sub-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    padding-left: 2.2em;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+header nav {
+    width: 45%;
+    display: flex;
+    align-items: center;
+
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 2em;
+}
+
+header nav ul li {
+    display: flex;
+
+}
+
+header nav ul li:last-child {
+    padding-right: 4em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Main section */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+div.headSection {
+    width: 100%;
+    display: flex;
+    height: 20em;
+    font-family: 'Merriweather', serif;
+    justify-items: center;
+    align-items: center;
+}
+
+div.headSectionLeftPart {
+    width: 80%;
+    padding-right: 2em;
+}
+
+div.headSectionLeftPart h1 {
+    font-size: 2em;
+    padding-bottom: 0.8em;
+
+}
+
+div.headSectionLeftPart p {
+    width: 100%;
+    font-weight: bold;
+}
+
+div.headSectionRightPart {
+    overflow: hidden;
+    width: 20%;
+}
+
+div div.headSectionLeftPart #headSectionP {
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 15em;
+    padding: 5px 10px;
+    margin-top: 3em;
+    font-size: 0.8em;
+}
+
+div.headSectionRightPart img {
+    width: 100%;
+}
+
+/* TEAM SECTION */
+section.ourTeamSection {
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#ourTeamTitle {
+    width: 100%;
+    text-align: center;
+
+}
+
+
+section.ourTeamSection .teamMember {
+    flex: 1 1 30%;
+
+    align-self: center;
+    text-align: center;
+    padding: 2em 0 2em 0;
+}
+
+section.ourTeamSection .teamMember img {
+    max-width: 8em;
+    max-height: 8em;
+    border-radius: 50%;
+}
+
+section.ourTeamSection .teamMember p {
+    padding: 0.5em 0 0.5em 0;
+}
+
+section.ourTeamSection .teamMember .teamMemberName {
+    font-weight: bold;
+}
+
+section.ourTeamSection .teamMember .teamMemberDesc {
+    font-style: italic;
+}
+
+/* Section newsletter */
+section.newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: rgb(104, 52, 123);
+    margin-bottom: 3em;
+}
+
+section.newsletter h3 {
+    flex-basis: 100%;
+    text-align: center;
+    color: white;
+    margin: 1.5em 0 1em 0;
+}
+
+section.newsletter input {
+    border: 1.5px solid black;
+    width: 20%;
+    margin: 1.5em 0 2em 0;
+    padding: 0.5em 13em;
+    border-radius: 4px;
+}
+
+section.newsletter button {
+    border: 1.5px solid black;
+    margin: 1.5em 0 2em 0;
+    padding: 0.5em 2em;
+    border-radius: 4px;
+    background-color: white;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer > .footerItems {
+    flex: 1 1 20%;
+    margin: 5em 1em;
+    text-align: center;
+
+}
+
+
+footer > .footerItems > .footerTitle {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+footer > .footerItems a {
+    text-decoration: none;
+    color: black;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+
+#toggle {
+    display: none;
+
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 800px) {
+    header #site-title {
+        font-size: 1em;
+    }
+
+    #site-sub-title {
+        font-size: 0.5em;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    section.ourTeamSection .teamMember {
+        flex: 1 1 40%;
+    }
+
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        padding: 5px 15px;
+
+
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+    nav {
+        justify-content: flex-end;
+    }
+
+    nav ul li {
+        border: 1px solid deepskyblue;
+        border-radius: 5px;
+        margin: 5px 5px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
