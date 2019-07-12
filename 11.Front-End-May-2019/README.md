@@ -11,7 +11,7 @@
 </ol>
 </br>
 
-<h1><a href="https://softuni.bg/trainings/2357/css-advanced-july-2019#lesson-11761">CSS Advanced - July 2019 - Content:</a></h1>
+<h1><a href="https://softuni.bg/trainings/2427/css-advanced-july-2019#lesson-12420">CSS Advanced - July 2019 - Content:</a></h1>
 <ol>
 	<li>CSS Variables</li>
 	<li>File organisation, Version Control</li>
