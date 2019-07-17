@@ -1,0 +1,33 @@
+
+body{
+    display: flex;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    height: 100%;
+    width: 60%;
+    margin: auto;
+}
+
+.wrapper h1{
+    font-size: var(--font-size-h1);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+article header h3 {
+    font-size: var(--font-size-h3);
+    font-style: italic;
+    font-weight: 600;
+    margin: 1em 0;
+}
+
+article p {
+    font-size: var(--font-size-p);
+    margin: 0.7em 0;
+}
+
