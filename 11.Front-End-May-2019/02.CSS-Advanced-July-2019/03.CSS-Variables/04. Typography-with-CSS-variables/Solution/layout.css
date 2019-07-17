@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    background-color: var(--background-color);
+}
+
+.wrapper h1 {
+    flex: 0 0 100%;
+    text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-family-heading);
+}
+
+p{
+    font-family: var(--font-family-cocntent);
+}

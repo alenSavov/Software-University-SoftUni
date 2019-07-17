@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 14px/1.5 'Roboto', sans-serif;
+}
+
+body, table, form, select, option, input, textarea {
+    font: inherit;
+}
+
+@media (min-width: 500px) {
+    html { font-size: var(--mq-font-size-min-width-500)}
+}
+
+@media (min-width: 700px) {
+    html { font-size: var(--mq-font-size-min-width-700) }
+}
+
+@media (min-width: 1600px) {
+    html { font-size: var(--mq-font-size-min-width-1600) }
+}
+
+

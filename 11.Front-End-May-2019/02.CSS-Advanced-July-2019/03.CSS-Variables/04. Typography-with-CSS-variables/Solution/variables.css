@@ -1,0 +1,7 @@
+:root{
+    --font-family-cocntent: 'PT Sans';
+    --font-family-heading: 'PT Serif';
+    --mq-font-size-min-width-500: 14px;
+    --mq-font-size-min-width-700: 16px;
+    --mq-font-size-min-width-1600: 18px;
+}
